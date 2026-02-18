@@ -21,6 +21,7 @@
       src="https://go-skill-icons.vercel.app/api/icons?i=figma,photoshop,touchdesigner"
     />
 </p>
+
 ---
 
 # Projects
@@ -31,12 +32,12 @@
 
 # Personal environment
 
-- ![Ubuntu icon](https://go-skill-icons.vercel.app/api/icons?i=ubuntu") OS: Ubuntu
-- Editor: [Nvim](https://github.com/neovim/neovim)
-    - [Personal Config](https://github.com/qFioofa/qFioofa-Nvim)
-- [Preffered theme && color scheme](https://github.com/qFioofa/yugen-ash.nvim)
-- Terminal: [Ghostty](https://ghostty.org/)
-    - [Personal config](https://github.com/qFioofa/qFioofa-Ghostty)
-- Browser: [Firefox](https://www.firefox.com)
+| Category | Icon | Name | Config Link |
+|----------|------|------|--------|
+| OS | ![Ubuntu](https://go-skill-icons.vercel.app/api/icons?i=ubuntu) | Ubuntu | - |
+| Editor | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=neovim) | [Nvim](https://github.com/neovim/neovim) | [Config](https://github.com/qFioofa/qFioofa-Nvim) |
+| Theme | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=bokeh) | [yugen-ash.nvim](https://github.com/qFioofa/yugen-ash.nvim) | [Config](https://github.com/qFioofa/yugen-ash.nvim) |
+| Terminal | ![Ghostty](https://go-skill-icons.vercel.app/api/icons?i=ghostty) | [Ghostty](https://ghostty.org/) | [Config](https://github.com/qFioofa/qFioofa-Ghostty) |
+| Browser | ![Firefox](https://go-skill-icons.vercel.app/api/icons?i=firefox) | [Firefox](https://www.firefox.com) | - |
 
 ---
