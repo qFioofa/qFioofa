@@ -1,16 +1,25 @@
-## Hi there 👋
+# About
 
-<!--
-**qFioofa/qFioofa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+# Technology stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+# Projects
+
+[List of projects && description](./PROJECTS.md)
+
+---
+
+# Personal environment
+
+- OS: Ubuntu
+- Editor: [Nvim](https://github.com/neovim/neovim)
+    - [Personal Config](https://github.com/qFioofa/qFioofa-Nvim)
+- [Preffered theme && color scheme](https://github.com/qFioofa/yugen-ash.nvim)
+- Terminal: [Ghostty](https://ghostty.org/)
+    - [Personal config](https://github.com/qFioofa/qFioofa-Ghostty)
+- Browser: [Firefox](https://www.firefox.com)
+
+---
