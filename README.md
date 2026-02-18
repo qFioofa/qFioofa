@@ -2,13 +2,20 @@
 
 ---
 
+# Projects
+
+[List of projects && description](./PROJECTS.md)
+
+---
+
 # Technology stack
 
 <p align="center">
     <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=git,kubernetes,docker,c,vim"
+      src="https://go-skill-icons.vercel.app/api/icons?i=js,typescript,css,html,svelte"
     />
 </p>
+
 
 <p align="center">
     <img
@@ -22,11 +29,6 @@
     />
 </p>
 
----
-
-# Projects
-
-[List of projects && description](./PROJECTS.md)
 
 ---
 
