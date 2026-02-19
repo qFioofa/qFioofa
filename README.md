@@ -4,7 +4,7 @@
 <table>
   <tr>
     <td valign="top" width="50%">
-      <img src="./p/output.gif" alt="profile picture" width="100%">
+      <img src="./p/php.gif" alt="profile picture" width="100%">
     </td>
   </tr>
 </table>
