@@ -1,23 +1,12 @@
 # About
+
 <table>
   <tr>
-    <!-- GIF Column -->
     <td valign="top" width="50%">
       <img src="./p/php.mp4" alt="Demo GIF" width="100%">
     </td>
-    
-    <td valign="top" width="50%">
-      <h3>Your Title Here</h3>
-      <p>
-        Write your description here. Markdown works inside table cells!
-      </p>
-      <ul>
-        <li>Point 1</li>
-        <li>Point 2</li>
-      </ul>
-    </td>
-  </tr>
 </table>
+
 ---
 
 # Projects
