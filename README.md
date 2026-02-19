@@ -2,12 +2,24 @@
 
 <table>
   <tr>
+    <!-- Video Column -->
     <td valign="top" width="50%">
-      <img src="./p/php.mp4" alt="Demo GIF" width="100%">
+      <video src="./p/php.mp4" controls autoplay loop muted playsinline width="100%"></video>
     </td>
-</table>
-
----
+    
+    <!-- <!-- Text Column --> -->
+    <!-- <td valign="top" width="50%"> -->
+    <!--   <h3>PHP Project Demo</h3> -->
+    <!--   <p> -->
+    <!--     Description of your project goes here. -->
+    <!--   </p> -->
+    <!--   <ul> -->
+    <!--     <li>Feature 1</li> -->
+    <!--     <li>Feature 2</li> -->
+    <!--   </ul> -->
+    <!-- </td> -->
+  </tr>
+</table>---
 
 # Projects
 
