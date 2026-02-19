@@ -15,19 +15,28 @@ This page contains all projects with breaf description and showcase of functiona
 
 ### Links
 
-- [Site showcase](https://negotiationtimer.up.railway.app/)
+<table>
+    <tr>
+        <td>
+            <a href="https://github.com/qFioofa/NegotiationTimer">Repository</a>
+        </td>
+        <td>
+            <a href="https://negotiationtimer.up.railway.app/">Site showcase</a>
+        </td>
+    </tr>
+</table>
 
 ## Stack
 
 <p align="center">
     <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=js,css,html,svelte"
+        src="https://go-skill-icons.vercel.app/api/icons?i=js,css,html,svelte"
     />
 </p>
 
 <p align="center">
     <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=docker,vite,railway"
+        src="https://go-skill-icons.vercel.app/api/icons?i=docker,vite,railway"
     />
 </p>
 
@@ -36,8 +45,37 @@ This page contains all projects with breaf description and showcase of functiona
 
 ## Gallary
 
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="width: 50%;"></td>
+    <td style="width: 50%;">
+      <img src="./p/timer/landing.png" style="width: 100%; display: block;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="./p/timer/menu.png" style="width: 100%; display: block;">
+    </td>
+    <td>
+      <img src="./p/timer/sidemenu.png" style="width: 100%; display: block;">
+    </td>
+  </tr>
+</table>
 
 # Feedback Game
+
+### Links
+
+<table>
+    <tr>
+        <td>
+            <a>Repository (Private)</a>
+        </td>
+        <td>
+            <a href="https://reversesslgame-production.up.railway.app">Site showcase</a>
+        </td>
+    </tr>
+</table>
 
 ## Stack
 

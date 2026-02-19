@@ -1,16 +1,18 @@
 # About
 
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <img src="./p/php.gif" alt="profile picture" width="100%">
-    </td>
-    <td valign="top" width="50%">
-        <h>About me</h>
-    </td>
-  </tr>
-</table>
+<p align="center">
+    <table>
+      <tr>
+        <td valign="top" width="50%">
+          <img src="./p/php.gif" alt="profile picture" width="100%">
+        </td>
+        <td valign="top" width="50%">
+            <h>About me</h>
+        </td>
+      </tr>
+    </table>
+</p>
 
 ---
 
