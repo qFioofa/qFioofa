@@ -18,6 +18,18 @@ This page contains all projects with breaf description and showcase of functiona
 <table>
     <tr>
         <td>
+            <img
+                src="https://go-skill-icons.vercel.app/api/icons?i=github"
+            />
+        </td>
+        <td>
+            <img
+                src="https://go-skill-icons.vercel.app/api/icons?i=chrome"
+            />
+        </td>
+    </tr>
+    <tr>
+        <td>
             <a href="https://github.com/qFioofa/NegotiationTimer">Repository</a>
         </td>
         <td>
@@ -81,7 +93,7 @@ This page contains all projects with breaf description and showcase of functiona
 
 <p align="center">
     <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=js,css,html,svelte"
+      src="https://go-skill-icons.vercel.app/api/icons?i=treejs,js,css,html,svelte"
     />
 </p>
 
