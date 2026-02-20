@@ -2,27 +2,18 @@
   
 # 📖 About
   
+<img src="./p/php.gif" alt="profile picture" width="50%" height="50%">
+
+<div style="margin-bottom: 15px;">
+    <h3 style="margin-top: 0; color: #1abc9c; font-weight: bold;">🎓 HSE Student & Developer</h3>
+    <p>🔍 Current focus: backend, application performance, and optimization techniques</p>
+    <p>🚀 Specialized in creating tools and microservers hat solve specific workflow problems</p>
+    <p>🤝 Enjoy explaning and helping others. Open for discussion</p>
+    <p>🌱 Outside interests: competitive negotiation, self-improvement, and productivity systems</p>
+    <p style="margin-bottom: 0;">⚡ Fun fact: Most favorite cartoon is Tom & Jerry 🐱 🐭 </p>
 </div>
 
-<p align="center">
-    <table>
-      <tr>
-        <td valign="top" width="50%">
-            <img src="./p/php.gif" alt="profile picture" width="100%">
-        </td>
-        <td valign="top" width="50%">
-              <div style="margin-bottom: 15px;">
-                    <h3 style="margin-top: 0; color: #1abc9c; font-weight: bold;">🎓 HSE Student & Developer</h3>
-                    <p>🔍 Current focus: backend, application performance, and optimization techniques</p>
-                    <p>🚀 Specialized in creating tools and microservers hat solve specific workflow problems</p>
-                    <p>🤝 Enjoy explaning and helping others. Open for discussion</p>
-                    <p>🌱 Outside interests: competitive negotiation, self-improvement, and productivity systems</p>
-                    <p style="margin-bottom: 0;">⚡ Fun fact: Most favorite cartoon is Tom & Jerry 🐱 🐭 </p>
-              </div>
-            </td>
-        </tr>
-    </table>
-</p>
+</div>
 
 ---
 
