@@ -3,9 +3,9 @@
 This page contains all projects with breaf description and showcase of functionality
 
 - List
-    - [Debate Timer](#Negotiation-Timer)
+    - [Debate Timer](#Debate-Timer)
     - [Feedback Game]()
-    - [Roguelike game]()
+    - [Roguelike game](#Roguelike-Game)
     - [Conflict generator LLM]()
     - [Audio Installation]()
 
@@ -19,64 +19,28 @@ This page contains all projects with breaf description and showcase of functiona
 
 ### Links
 
-<table>
-    <tr>
-        <td>
-            <img
-                src="https://go-skill-icons.vercel.app/api/icons?i=github"
-            />
-        </td>
-        <td>
-            <img
-                src="https://go-skill-icons.vercel.app/api/icons?i=chrome"
-            />
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <a href="https://github.com/qFioofa/NegotiationTimer">Repository</a>
-        </td>
-        <td>
-            <a href="https://negotiationtimer.up.railway.app/">Site showcase</a>
-        </td>
-    </tr>
-</table>
+| ![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github) | ![Chrome](https://go-skill-icons.vercel.app/api/icons?i=chrome) |
+| --- | --- |
+| [Repository](https://github.com/qFioofa/NegotiationTimer) | [Site showcase](https://negotiationtimer.up.railway.app/) |
+
 
 ## Stack
 
-<p align="center">
-    <img
-        src="https://go-skill-icons.vercel.app/api/icons?i=js,css,html,svelte"
-    />
-</p>
-
-<p align="center">
-    <img
-        src="https://go-skill-icons.vercel.app/api/icons?i=docker,vite,railway"
-    />
-</p>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=js,css,html,svelte" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=docker,vite,railway" />
 
 ## Description
 
 
 ## Gallary
 
-<table style="width: 100%; border-collapse: collapse;">
-  <tr>
-    <td style="width: 50%;"></td>
-    <td style="width: 50%;">
-      <img src="./p/timer/landing.png" style="width: 100%; display: block;">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./p/timer/menu.png" style="width: 100%; display: block;">
-    </td>
-    <td>
-      <img src="./p/timer/sidemenu.png" style="width: 100%; display: block;">
-    </td>
-  </tr>
-</table>
+<img src="./p/timer/landing.png" style="width: 100%;">
+<img src="./p/timer/menu.png" style="width: 100%;">
+<img src="./p/timer/sidemenu.png" style="width: 100%;">
+
+### Animations
+
+<img src="./p/timer/showcase.gif" style="width: 100%;">
 
 ---
 
@@ -88,30 +52,16 @@ This page contains all projects with breaf description and showcase of functiona
 
 ### Links
 
-<table>
-    <tr>
-        <td>
-            <a>Repository (Private)</a>
-        </td>
-        <td>
-            <a href="https://reversesslgame-production.up.railway.app">Site showcase</a>
-        </td>
-    </tr>
-</table>
+| ![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github) | ![Chrome](https://go-skill-icons.vercel.app/api/icons?i=chrome) |
+| --- | --- |
+| Repository (Private) | [Site showcase](https://reversesslgame-production.up.railway.app/) |
+
 
 ## Stack
 
-<p align="center">
-    <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=treejs,js,css,html,svelte"
-    />
-</p>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=threejs,js,css,html,svelte" />
 
-<p align="center">
-    <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=docker,vite,railway"
-    />
-</p>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=docker,vite,railway" />
 
 ## Description
 
@@ -119,6 +69,19 @@ This page contains all projects with breaf description and showcase of functiona
 
 ## Gallary
 
+<img src="./p/feedback/menu.png" style="width: 100%;">
+<img src="./p/feedback/caracter_showcase.gif" style="width: 100%;">
+
+---
+
+<img src="./p/feedback/how_to_play.png" style="width: 100%;">
+<img src="./p/feedback/how_to_play_showcase.gif" style="width: 100%;">
+
+---
+
+<img src="./p/feedback/solo.png" style="width: 100%;">
+<img src="./p/feedback/card_generation.gif" style="width: 100%;">
+<img src="./p/feedback/manual.gif" style="width: 100%;">
 
 <div align="center">
 
@@ -127,26 +90,23 @@ This page contains all projects with breaf description and showcase of functiona
 </div>
 
 ### Links
+| ![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github) | ![App](https://go-skill-icons.vercel.app/api/icons?i=docker) |
+| --- | --- |
+| [Repository](https://github.com/qFioofa/RoguelikeGame) | [App ready to play](https://github.com/qFioofa/RoguelikeGame/releases/tag/Build) |
+
 
 ## Stack
 
-<p align="center">
-    <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=js,css,html,svelte"
-    />
-</p>
-
-<p align="center">
-    <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=docker,vite,railway"
-    />
-</p>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=cs,unity" />
 
 ## Description
 
 
 ## Gallary
 
+<img src="./p/roguelike/menu.jpg" style="width: 100%;">
+<img src="./p/roguelike/locations.jpg" style="width: 100%;">
+<img src="./p/roguelike/poligon.jpg" style="width: 100%;">
 
 <div align="center">
 
@@ -154,17 +114,9 @@ This page contains all projects with breaf description and showcase of functiona
 
 </div>
 
-<p align="center">
-    <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=googlecoolab,"
-    />
-</p>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=googlecoolab" />
 
-<p align="center">
-    <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=python,telegram"
-    />
-</p>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,telegram" />
 
 ## Description
 
@@ -182,11 +134,7 @@ This page contains all projects with breaf description and showcase of functiona
 
 ## Stack
 
-<p align="center">
-    <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=python,touchdesigner,figma"
-    />
-</p>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=python,touchdesigner,figma" />
 
 ## Description
 
