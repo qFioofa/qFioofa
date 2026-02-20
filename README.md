@@ -32,7 +32,9 @@
   
 </div>
 
-[List of projects && description](./PROJECTS.md)
+<a href="PROJECTS.md">
+    <img src="./p/Project.png" alt="Project link" style="max-width:100%;">
+</a>
 
 ---
 

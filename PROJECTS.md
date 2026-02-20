@@ -11,7 +11,11 @@ This page contains all projects with breaf description and showcase of functiona
 
 ---
 
+<div align="center">
+
 # Debate Timer
+
+</div>
 
 ### Links
 
@@ -74,7 +78,13 @@ This page contains all projects with breaf description and showcase of functiona
   </tr>
 </table>
 
+---
+
+<div align="center">
+
 # Feedback Game
+
+</div>
 
 ### Links
 
@@ -109,7 +119,12 @@ This page contains all projects with breaf description and showcase of functiona
 
 ## Gallary
 
+
+<div align="center">
+
 # Roguelike Game
+
+</div>
 
 ### Links
 
@@ -133,8 +148,11 @@ This page contains all projects with breaf description and showcase of functiona
 ## Gallary
 
 
+<div align="center">
 
 # Conflict generator LLM
+
+</div>
 
 <p align="center">
     <img
@@ -154,7 +172,11 @@ This page contains all projects with breaf description and showcase of functiona
 ## Gallary
 
 
+<div align="center">
+
 # Audio Installation
+
+</div>
 
 ### Links
 
