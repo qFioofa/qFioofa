@@ -26,17 +26,21 @@
 
 ---
 
-<h2 style="text-align: center; font-weight: 600; font-size: 1.8rem; margin: 2rem 0; color: #1abc9c;">
-    📱 Projects
-</h2>
+<div align="center">
+  
+# 📱 Projects
+  
+</div>
 
 [List of projects && description](./PROJECTS.md)
 
 ---
 
-<h2 style="text-align: center; font-weight: 600; font-size: 1.8rem; margin: 2rem 0; color: #1abc9c;">
-    🔧 Technology stack
-</h2>
+<div align="center">
+  
+# 🔧 Technology stack
+  
+</div>
 
 <p align="center">
     <img
@@ -60,10 +64,11 @@
 
 ---
 
-
-<h2 style="text-align: center; font-weight: 600; font-size: 1.8rem; margin: 2rem 0; color: #1abc9c;">
-    🏡 Personal environment
-</h2>
+<div align="center">
+  
+# 🏡 Personal environment
+  
+</div>
 
 
 | Category | Icon | Name | Config Link |
