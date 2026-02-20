@@ -1,6 +1,6 @@
-<h2 style="text-align: center; font-weight: 600; font-size: 1.8rem; margin: 2rem 0; color: #1abc9c;">
+<p style="text-align: center; font-weight: 600; font-size: 1.8rem; margin: 2rem 0; color: #1abc9c;">
     📖 About
-</h2>
+</p>
 
 <p align="center">
     <table>
