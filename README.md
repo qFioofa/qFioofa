@@ -66,7 +66,7 @@
 
 | Category | Icon | Name | Config Link |
 |----------|------|------|--------|
-| OS | ![Ubuntu](https://go-skill-icons.vercel.app/api/icons?i=ubuntu) | Ubuntu | - |
+| OS | ![Ubuntu](https://go-skill-icons.vercel.app/api/icons?i=ubuntu) | [Ubuntu](https://ubuntu.com/) | - |
 | Editor | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=neovim) | [Nvim](https://github.com/neovim/neovim) | [Config](https://github.com/qFioofa/qFioofa-Nvim) |
 | Theme | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=bokeh) | [yugen-ash.nvim](https://github.com/qFioofa/yugen-ash.nvim) | [Config](https://github.com/qFioofa/yugen-ash.nvim) |
 | Terminal | ![Ghostty](https://go-skill-icons.vercel.app/api/icons?i=ghostty) | [Ghostty](https://ghostty.org/) | [Config](https://github.com/qFioofa/qFioofa-Ghostty) |
