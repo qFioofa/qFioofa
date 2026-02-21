@@ -81,7 +81,21 @@ This page contains all projects with breaf description and showcase of functiona
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=docker,vite,railway" />
 
+## Features
+
+- Работа с библиотекой threejs
+    - Позволяет визуализировать в 3D
+        - Приложение создает вау эффект
+        - Позволяет зацепить пользователя
+        - Максимально передать свойства объекта через экран
+- Система уведомлений
+- Мануал по реальной [карточной игре Обратка](https://skillslab.center/boardgame)
+
 ## Results
+
+- Работающий генератор формул для дачи обратной связи
+- Готовый шаблон для реализации мультипреера
+- Среда для тренеровки обратной связи
 
 ## Gallary
 
@@ -118,8 +132,19 @@ This page contains all projects with breaf description and showcase of functiona
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=cs,unity" />
 
+## Features
+
+- Процедурная генерация
+- Реализация жанра Рогалик
+- Прокачка персонажа
+- Сохранение прогресса
+
 ## Results
 
+- Работа с импортом моделей
+- Работающий ИИ для противников
+- Настройки, туториал, подсказки
+    - Улучшает пользовательский опыт в игре
 
 ## Gallary
 
@@ -145,12 +170,22 @@ This page contains all projects with breaf description and showcase of functiona
 | --- | --- |
 | [Conflict Generator Landing](https://github.com/qFioofa/ConflictGeneratorLanding) | [Dataset Creation Tools](https://github.com/qFioofa/ConflictDatasetCreation) |
 
-| [![Google Colab](https://go-skill-icons.vercel.app/api/icons?i=googlecolab)](https://colab.research.google.com/drive/1z09DdHNGDC8iIQOlYuxSUwF0pIjjvE0l?usp=drive_link) |  |
-| --- | --- |
-| [Tuning model](https://colab.research.google.com/drive/1z09DdHNGDC8iIQOlYuxSUwF0pIjjvE0l?usp=drive_link) |  |
+| [![Google Colab](https://go-skill-icons.vercel.app/api/icons?i=googlecolab)](https://colab.research.google.com/drive/1z09DdHNGDC8iIQOlYuxSUwF0pIjjvE0l?usp=drive_link) |
+| --- |
+| [Tuning model](https://colab.research.google.com/drive/1z09DdHNGDC8iIQOlYuxSUwF0pIjjvE0l?usp=drive_link) |
+
+
+## Features
+
+- Содержит пошаговый гайд по созданию LLM
+    - Метод основан на уже готовых моделях
+    - Выполняет узкую специализированную задачу
+- Готовая модель интегрирована с TG ботом
+- ~ 500 записей в датасете
+    - Каждая запись подробно расписана
+    - Проверена в ручную
 
 ## Stack
-
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=googlecoolab" />
 
@@ -158,6 +193,15 @@ This page contains all projects with breaf description and showcase of functiona
 
 ## Results
 
+- Тренеровка LLM под конкретную задачу
+- Создание датасета
+    - С полного нуля/под специфические условия
+    - Выделение ключевых признаков для лучшей работы модели
+    - Фильтрация данных
+- Натренерованная модель
+    - Выводит конфликтные ситуации
+- Интеграция с TG ботом
+- Применение в учебе: клуб переговоров
 
 ## Gallary
 
@@ -179,11 +223,22 @@ This page contains all projects with breaf description and showcase of functiona
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=python,touchdesigner,figma" />
 
+## Features
+
+- 2 модуля - `.tox` файлы
+    - Интеграция с различными LLM
+    - Плавное переключение между
+- Диманический визуал
+    - Адаптивность под ввод пользователя
+    - Генерация в realtime
+
 ## Results
 
+- Готовая инсталляция для мероприятия
+- 2 модуля
+    - Легко интегрировать в другие проекты
 
 ## Gallary
-
 
 [⬅️ Back to List](#Projects)
 
