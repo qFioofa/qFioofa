@@ -1,8 +1,26 @@
 <div align="center">
   
+# 📱 Projects
+
+## ❗Нажми на картику для простотра проектов
+
+<a href="PROJECTS.md">
+    <img src="./p/Project.png" alt="Project link" style="max-width:100%;">
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
 # 📖 About
-  
-<img src="./p/php.gif" alt="profile picture" width="50%" height="50%">
+
+</div>
+
+<table>
+<tr>
+<td width="60%">
 
 <div style="margin-bottom: 15px;">
     <h3 style="margin-top: 0; color: #1abc9c; font-weight: bold;">🎓 HSE Student & Developer</h3>
@@ -13,19 +31,14 @@
     <p style="margin-bottom: 0;">⚡ Fun fact: Most favorite cartoon is Tom & Jerry 🐱 🐭 </p>
 </div>
 
-</div>
+</td>
+<td width="40%" align="center">
 
----
+<img src="./p/php.gif" alt="profile picture" width="100%" height="auto">
 
-<div align="center">
-  
-# 📱 Projects
-  
-</div>
-
-<a href="PROJECTS.md">
-    <img src="./p/Project.png" alt="Project link" style="max-width:100%;">
-</a>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -57,17 +70,6 @@
 
 <div align="center">
   
-# 🏡 Personal environment
+# 🏡 [Personal environment](./CONFIG.md)
   
 </div>
-
-| Category | Icon                                                              | Name                                                        | Config Link                                          |
-| -------- | ----------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------- |
-| OS       | ![Ubuntu](https://go-skill-icons.vercel.app/api/icons?i=ubuntu)   | [Ubuntu](https://ubuntu.com/)                               | -                                                    |
-| Editor   | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=neovim)   | [Nvim](https://github.com/neovim/neovim)                    | [Config](https://github.com/qFioofa/qFioofa-Nvim)    |
-| Theme    | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=bokeh)    | [yugen-ash.nvim](https://github.com/qFioofa/yugen-ash.nvim) | [Config](https://github.com/qFioofa/yugen-ash.nvim)  |
-| Shell    | ![zsh](https://go-skill-icons.vercel.app/api/icons?i=terminal)    | [zsh](https://github.com/zsh-users/zsh)                     | [Config](https://github.com/qFioofa/qFioofa-zsh)     |
-| Terminal | ![Ghostty](https://go-skill-icons.vercel.app/api/icons?i=ghostty) | [Ghostty](https://ghostty.org/)                             | [Config](https://github.com/qFioofa/qFioofa-Ghostty) |
-| Browser  | ![Firefox](https://go-skill-icons.vercel.app/api/icons?i=firefox) | [Firefox](https://www.firefox.com)                          | -                                                    |
-
----
