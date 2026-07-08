@@ -1,8 +1,10 @@
 <div align="center">
-  
+
 # 📱 Projects
 
-## ❗Нажми на картику для простотра проектов
+Backend-разработчик (Java · Go) — сервисы в проде: [⏱️ Debate Timer](https://negotiationtimer.up.railway.app/) · [🤖 Conflict Generator LLM](https://github.com/qFioofa/TuningModelTGBotShowcase) · [🎮 Feedback Game](https://reversesslgame-production.up.railway.app/)
+
+## ❗Нажми на картинку для просмотра всех проектов
 
 <a href="PROJECTS.md">
     <img src="./p/Project.png" alt="Project link" style="max-width:100%;">
@@ -25,8 +27,8 @@
 <div style="margin-bottom: 15px;">
     <h3 style="margin-top: 0; color: #1abc9c; font-weight: bold;">🎓 HSE Student & Developer</h3>
     <p>🔍 Current focus: backend, application performance, and optimization techniques</p>
-    <p>🚀 Specialized in creating tools and microservers hat solve specific workflow problems</p>
-    <p>🤝 Enjoy explaning and helping others. Open for discussion</p>
+    <p>🚀 Specialized in creating tools and microservices that solve specific workflow problems</p>
+    <p>🤝 Enjoy explaining and helping others. Open for discussion</p>
     <p>🌱 Outside interests: competitive negotiation, self-improvement, and productivity systems</p>
     <p style="margin-bottom: 0;">⚡ Fun fact: Most favorite cartoon is Tom & Jerry 🐱 🐭 </p>
 </div>
@@ -43,9 +45,9 @@
 ---
 
 <div align="center">
-  
+
 # 🔧 Technology stack
-  
+
 </div>
 
 <p align="center">
@@ -69,7 +71,7 @@
 ---
 
 <div align="center">
-  
+
 # 🏡 [Personal environment](./CONFIG.md)
-  
+
 </div>
