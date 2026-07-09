@@ -2,4 +2,7 @@
 
 cd "$(dirname "$0")/.." || exit
 mkdir -p result
-typst compile resume.typ result/resume.pdf
+
+for file in *.typ; do
+	typst compile "$file" result/"$(basename "${file%.*}")".pdf
+done
