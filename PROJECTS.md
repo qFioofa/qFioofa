@@ -2,16 +2,18 @@
 
 Здесь собраны все проекты с кратким описанием и демонстрацией функционала.
 
-- Список
-    - [🧰 Навыки](#навыки)
-    - [⏱️ Debate Timer](#debate-timer)
-    - [🤖 Conflict Generator LLM](#conflict-generator-llm)
-    - [🎮 Feedback Game](#feedback-game)
-    - [🎮 Roguelike Game](#roguelike-game)
-    - [📱 Android Apps](#android-apps)
-    - [♿ Web Accessibility](#web-accessibility)
-    - [🎶 Audio Installation](#audio-installation)
-    - [🛠️ Development Environment](#development-environment)
+| Проект                                                 | Что это                                                                     | Стек                             | Статус     |
+| ------------------------------------------------------ | --------------------------------------------------------------------------- | -------------------------------- | ---------- |
+| [⏱️ Debate Timer](#debate-timer)                       | Реалтайм-таймер для клуба переговоров, синхронизация состояния по WebSocket | Elixir/Phoenix · Svelte · Docker | 🟢 в проде |
+| [🤖 Conflict Generator LLM](#conflict-generator-llm)   | Свой датасет → дообучение LLM → Telegram-бот генерации конфликтных ситуаций | Python · TG Bot API · Colab      | 🟢 в проде |
+| [🎮 Feedback Game](#feedback-game)                     | 3D-игра на three.js для тренировки навыка обратной связи                    | Svelte · three.js · Docker       | 🟢 в проде |
+| [🎮 Roguelike Game](#roguelike-game)                   | Рогалик с процедурной генерацией уровней, ИИ и сохранениями                 | C# · Unity                       |            |
+| [📱 Android Apps](#android-apps)                       | Новостной клиент на Kotlin с REST API + Java-проекты                        | Kotlin · Java · Gradle           |            |
+| [♿ Web Accessibility](#web-accessibility)             | Аудит и исправление веб-доступности (a11y) с задеплоенным результатом       | HTML · CSS · JS                  |            |
+| [🎶 Audio Installation](#audio-installation)           | Аудиовизуальная инсталляция с реактивным визуалом и генерацией через LLM    | TouchDesigner · Python           |            |
+| [🛠️ Development Environment](#development-environment) | Декларативное воспроизводимое окружение + open-source инструменты           | NixOS · Lua · Zig · Bash         |            |
+
+[🧰 Сводка навыков по всем проектам](#навыки)
 
 ---
 
@@ -46,9 +48,10 @@
 Таймер для клуба переговоров: полностью брендируемый экран отсчёта, который готовится к мероприятию за 3 клика.
 
 ### Ссылки
+
 | [![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github)](https://github.com/qFioofa/NegotiationTimer) | [![Site](https://go-skill-icons.vercel.app/api/icons?i=chrome)](https://negotiationtimer.up.railway.app/) |
-| --- | --- |
-| [Репозиторий](https://github.com/qFioofa/NegotiationTimer) | [Демо сайта](https://negotiationtimer.up.railway.app/) |
+| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| [Репозиторий](https://github.com/qFioofa/NegotiationTimer)                                                     | [Демо сайта](https://negotiationtimer.up.railway.app/)                                                    |
 
 ## Стек
 
@@ -107,16 +110,16 @@
 ### Ссылки
 
 | [![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github)](https://github.com/qFioofa/TuningModelTGBotShowcase) | [![Hugging Face](https://go-skill-icons.vercel.app/api/icons?i=huggingface)](https://huggingface.co/datasets/BroneBonBon/conflict-situations-test) |
-| --- | --- |
-| [Telegram-бот дообученной модели](https://github.com/qFioofa/TuningModelTGBotShowcase) | [Датасет конфликтных ситуаций](https://huggingface.co/datasets/BroneBonBon/conflict-situations-test) |
+| ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Telegram-бот дообученной модели](https://github.com/qFioofa/TuningModelTGBotShowcase)                                 | [Датасет конфликтных ситуаций](https://huggingface.co/datasets/BroneBonBon/conflict-situations-test)                                               |
 
 | [![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github)](https://github.com/qFioofa/ConflictGeneratorLanding) | [![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github)](https://github.com/qFioofa/ConflictDatasetCreation) |
-| --- | --- |
-| [Лендинг генератора](https://github.com/qFioofa/ConflictGeneratorLanding) | [Инструменты создания датасета](https://github.com/qFioofa/ConflictDatasetCreation) |
+| ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [Лендинг генератора](https://github.com/qFioofa/ConflictGeneratorLanding)                                              | [Инструменты создания датасета](https://github.com/qFioofa/ConflictDatasetCreation)                                   |
 
 | [![Google Colab](https://go-skill-icons.vercel.app/api/icons?i=googlecolab)](https://colab.research.google.com/drive/1z09DdHNGDC8iIQOlYuxSUwF0pIjjvE0l?usp=drive_link) |
-| --- |
-| [Дообучение модели](https://colab.research.google.com/drive/1z09DdHNGDC8iIQOlYuxSUwF0pIjjvE0l?usp=drive_link) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Дообучение модели](https://colab.research.google.com/drive/1z09DdHNGDC8iIQOlYuxSUwF0pIjjvE0l?usp=drive_link)                                                          |
 
 ## Стек
 
@@ -151,9 +154,10 @@
 3D-игра для тренировки навыка обратной связи — цифровая версия карточной игры «Обратка».
 
 ### Ссылки
+
 | ![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github) | [![Chrome](https://go-skill-icons.vercel.app/api/icons?i=chrome)](https://reversesslgame-production.up.railway.app/) |
-| --- | --- |
-| Репозиторий (приватный) | [Демо сайта](https://reversesslgame-production.up.railway.app/) |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Репозиторий (приватный)                                         | [Демо сайта](https://reversesslgame-production.up.railway.app/)                                                      |
 
 ## Стек
 
@@ -204,8 +208,8 @@
 ### Ссылки
 
 | [![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github)](https://github.com/qFioofa/RoguelikeGame) | [![App](https://go-skill-icons.vercel.app/api/icons?i=docker)](https://github.com/qFioofa/RoguelikeGame/releases/tag/Build) |
-| --- | --- |
-| [Репозиторий](https://github.com/qFioofa/RoguelikeGame) | [Готовое приложение](https://github.com/qFioofa/RoguelikeGame/releases/tag/Build) |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| [Репозиторий](https://github.com/qFioofa/RoguelikeGame)                                                     | [Готовое приложение](https://github.com/qFioofa/RoguelikeGame/releases/tag/Build)                                           |
 
 ## Стек
 
@@ -245,8 +249,8 @@
 ### Ссылки
 
 | [![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github)](https://github.com/qFioofa/news-android-app) |
-| --- |
-| [News App (Kotlin)](https://github.com/qFioofa/news-android-app) |
+| -------------------------------------------------------------------------------------------------------------- |
+| [News App (Kotlin)](https://github.com/qFioofa/news-android-app)                                               |
 
 ## Стек
 
@@ -280,8 +284,8 @@
 ### Ссылки
 
 | [![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github)](https://github.com/qFioofa/hackaton-2026.accessibility) | [![Site](https://go-skill-icons.vercel.app/api/icons?i=chrome)](https://qfioofa.github.io/hackaton-2026.accessibility/root/) |
-| --- | --- |
-| [Репозиторий](https://github.com/qFioofa/hackaton-2026.accessibility) | [Демо сайта](https://qfioofa.github.io/hackaton-2026.accessibility/root/) |
+| ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| [Репозиторий](https://github.com/qFioofa/hackaton-2026.accessibility)                                                     | [Демо сайта](https://qfioofa.github.io/hackaton-2026.accessibility/root/)                                                    |
 
 ## Стек
 
@@ -313,8 +317,8 @@
 ### Ссылки
 
 | [![GitHub](https://go-skill-icons.vercel.app/api/icons?i=github)](https://github.com/Bambaleiio/Installation-Coursework) |
-| --- |
-| [Репозиторий](https://github.com/Bambaleiio/Installation-Coursework) |
+| ------------------------------------------------------------------------------------------------------------------------ |
+| [Репозиторий](https://github.com/Bambaleiio/Installation-Coursework)                                                     |
 
 ## Стек
 
