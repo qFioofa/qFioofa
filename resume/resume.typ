@@ -83,7 +83,7 @@
     #text(size: 22pt, weight: "bold")[Дмитрий Воскобойник]
     #v(-4pt)
     #mono(
-      [Backend-разработчик #text(fill: accent)[(Java · Go)]],
+      [Backend-разработчик #text(fill: accent)[(Java)]],
       size: 11pt,
     )
     #v(6pt)
@@ -111,66 +111,66 @@
 
 #point(
   "\u{f0e7}",
-  [Backend-сервисы],
-  [REST API, WebSocket-реалтайм, Telegram Bot API; сервисная
-    архитектура],
+  [Backend-разработка],
+  [Java, Spring Boot, REST API: проектирую и разрабатываю серверную часть
+    приложений — от базы данных до развёртывания сервиса],
 )
 #point(
   "\u{f121}",
   [Надёжность и данные],
-  [отказоустойчивость (OTP), PostgreSQL: транзакции, уровни изоляции,
-    индексы, DWH],
+  [PostgreSQL: транзакции, индексы, оптимизация запросов; продуманная
+    обработка ошибок],
 )
 #point(
-  "\u{f135}",
-  [Довожу до продакшена],
-  [Docker (Compose), CI-скрипты, Git; задеплоил 4 сервиса с живыми
-    пользователями],
+  "\u{f086}",
+  [Клуб переговоров],
+  [организатор и ведущий: занятия для 10 участников, разбор теории и
+    практические упражнения; развил навык решения конфликтов и ведения
+    переговоров],
+)
+#point(
+  "\u{f0c0}",
+  [Командная работа],
+  [GitFlow, спринты по Agile, совместный code review],
+)
+#point(
+  "\u{f03e}",
+  [Документация],
+  [визуальные диаграммы архитектуры и API на PlantUML],
 )
 
 = Проекты
 
 #card(
-  "Debate Timer",
-  [таймер для клуба переговоров],
-  [Разработал реалтайм-бэкенд (Phoenix/Elixir): REST + WebSocket API,
-    синхронизация состояния, изолированный процесс на комнату (акторная
-    модель), автоперевыбор хоста. Фронт и бэк — отдельные сервисы в
-    Docker; в проде с 2025 года, еженедельно используется клубом
-    переговоров.],
-  icons: "stack-timer.svg",
-  link("https://github.com/qFioofa/NegotiationTimer")[GitHub],
-  link("https://timer.skillslab.center/o2/")[Демо],
+  "Advance Shop",
+  [e-commerce backend],
+  [Серверная часть интернет-магазина бытовой техники: 29 функций для
+    управления клиентами, поставщиками и товарами; разделил чтение и
+    запись, чтобы сервис стабильно работал при росте нагрузки; продуманная
+    обработка ошибок.],
+  icons: "stack-advance.svg",
+  link("https://github.com/qFioofa/advance-shop-backend.springboot")[GitHub],
 )
 
 #card(
-  "Conflict Generator LLM",
-  [конфликтные кейсы для переговоров],
-  [Собрал полный пайплайн: датасет \~500 записей с ручной разметкой
-    (Hugging Face) → дообучение LLM → backend-сервис в Telegram (Bot
-    API, модульная архитектура, Docker Compose). Применяется в обучении
-    клуба переговоров.],
-  icons: "stack-llm.svg",
-  link("https://github.com/qFioofa/TuningModelTGBotShowcase")[GitHub],
-  link(
-    "https://huggingface.co/datasets/BroneBonBon/conflict-situations-test",
-  )[Датасет],
+  "Weather Collection",
+  [сбор данных о погоде],
+  [Автоматический сбор и анализ погоды по 30 городам: данные обновляются
+    каждые 3 минуты, устаревшие записи архивируются сами, отчёты строятся
+    без ручных действий.],
+  icons: "stack-weather.svg",
+  link("https://github.com/qFioofa/weather-collection.postgress")[GitHub],
 )
 
 #card(
-  "Roguelike на Java",
-  [командный проект — Школа 21],
-  [Командная разработка консольного roguelike на Java (JCurses):
-    ООП-архитектура, code review. Соло-версия жанра на Unity/C\#:
-    процедурная генерация уровней, ИИ противников.],
-  icons: "stack-rogue.svg",
-  link("https://github.com/qFioofa/RoguelikeGame")[GitHub],
+  "Payment & Subscription Registry",
+  [учёт подписок и платежей],
+  [Сервис учёта подписок и регулярных платежей: корректный расчёт дат
+    списаний (конец месяца, високосный год), бизнес-логика отделена от
+    технической части, 16 автотестов.],
+  icons: "stack-payment.svg",
+  link("https://github.com/qFioofa/payment-subscription.springboot")[GitHub],
 )
-
-#text(fill: soft, size: 9pt)[
-  Ещё 15+ репозиториев и 3 опубликованных open-source инструмента:
-  #link("https://github.com/qFioofa")[github.com/qFioofa]
-]
 
 = Навыки
 
@@ -200,27 +200,27 @@
     top: if y > 0 { 0.5pt + hairline } else { 0pt },
     left: if x > 0 { 0.5pt + hairline } else { 0pt },
   ),
-  ..skill("BACKEND", icons: ("elixir", "telegram"))[
-    REST API, WebSocket-реалтайм, микросервисный подход,
-    stateful-сервисы, отказоустойчивость (OTP), Telegram Bot API
+  ..skill("BACKEND", icons: ("spring", "java"))[
+    Spring Boot, Spring Data JPA, Hibernate, REST API, unit-тесты
   ],
   ..skill(
     "ЯЗЫКИ",
-    icons: ("java", "go", "postgresql", "python", "kotlin", "js", "bash"),
+    icons: ("java", "python", "bash"),
   )[
-    Java, Go, SQL, Python, Kotlin, JS/TS, Bash
+    Java, SQL, Python, Bash
   ],
   ..skill("БАЗЫ ДАННЫХ", icons: ("postgresql",))[
-    PostgreSQL: проектирование схем, транзакции и уровни изоляции,
-    хранимые процедуры, индексы, DWH/OLAP
+    PostgreSQL: проектирование схем, миграции (Flyway), индексы,
+    оптимизация запросов
   ],
-  ..skill("DEVOPS", icons: ("docker", "gradle", "git", "nixos"))[
-    Docker (Compose), CI-скрипты, Gradle, Git, Linux (NixOS), сети
-    TCP/IP
+  ..skill("DEVOPS", icons: ("docker", "git", "ci"))[
+    Docker (Compose), CI/CD, Git, Gradle/Maven, Linux, Nginx, TCP/IP
   ],
-  ..skill("КОНЦЕПЦИИ", icons: ("java", "go"))[
-    HTTP/клиент-сервер, ООП и функциональная парадигма (Java),
-    конкурентность (Go: горутины, каналы, sync)
+  ..skill("КОНЦЕПЦИИ", icons: ("java",))[
+    ООП, клиент-сервер, конкурентность
+  ],
+  ..skill("ДОКУМЕНТАЦИЯ", icons: ("plantuml",))[
+    визуальные диаграммы архитектуры и API
   ],
   ..skill("ЯЗЫКИ (ЕСТ.)")[
     русский — родной; английский — B2 (разговорный)
@@ -230,12 +230,7 @@
 = Образование
 
 - #ico("\u{f19d}")[*НИУ ВШЭ* — Бизнес-информатика (2023 — 2027)]
-- #ico("\u{f0c0}")[*Школа 21 (Сбер)* — peer-to-peer программа: выполнил
-    25+ учебных проектов (Java, Go, SQL/DWH, DevOps, Linux-сети),
-    командная разработка и code review]
-
-= Активности
-
-- #ico("\u{f086}")[*Клуб переговоров* — организатор и ведущий
-    еженедельных встреч (10+ участников); разработал и внедрил
-    инструменты клуба: Debate Timer, Conflict Generator LLM]
+- #ico("\u{f0c0}")[*Школа 21 (Сбер)* (2026 — наст. время) — бесплатная
+    школа программирования по модели «равный — равному»: проекты по разным
+    направлениям; soft-скилы: самообучение, разбор чужого кода, работа
+    в команде]
