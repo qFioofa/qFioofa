@@ -192,6 +192,21 @@
     (table.cell(colspan: 2, body),)
   },
 )
+#let cloud(names) = block(
+  width: 100%,
+  inset: (x: 8pt, y: 6pt),
+  stroke: 0.6pt + hairline,
+  radius: 4pt,
+)[
+  #names.map(n => box(
+    fill: accent.lighten(80%),
+    stroke: 0.5pt + accent.lighten(62%),
+    inset: (x: 6pt, y: 2.5pt),
+    radius: 4pt,
+    outset: (y: 1.5pt),
+    mono(n, size: 8.5pt, fill: accent),
+  )).join(h(4pt))
+]
 #table(
   columns: (88pt, 1fr, auto),
   align: (left + horizon, left + horizon, right + horizon),
@@ -226,6 +241,30 @@
     русский — родной; английский — B2 (разговорный)
   ],
 )
+#v(5pt)
+#cloud((
+  "Java",
+  "ООП",
+  "SQL",
+  "PostgreSQL",
+  "REST API",
+  "Spring Boot",
+  "Spring Data JPA",
+  "Hibernate",
+  "Unit-тесты (JUnit 5, Mockito)",
+  "Gradle",
+  "Maven",
+  "Flyway",
+  "Docker",
+  "Docker Compose",
+  "Linux",
+  "Git",
+  "CI/CD",
+  "Nginx",
+  "Python",
+  "TCP/IP",
+  "Bash",
+))
 
 = Образование
 
