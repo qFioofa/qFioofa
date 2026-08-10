@@ -99,7 +99,7 @@
         "https://github.com/qFioofa",
       )[github.com/qFioofa]],
 
-      ico("\u{f041}")[Нижний Новгород],
+      ico("\u{f041}")[Москва],
     )
   ],
   photo,
@@ -134,40 +134,76 @@
   [GitFlow, спринты по Agile, совместный code review],
 )
 #point(
+  "\u{f121}",
+  [ИИ / LLM],
+  [использую AI-ассистентов в разработке (генерация и ревью кода, тесты,
+    документация); настраиваю и дообучаю языковые модели],
+)
+#point(
   "\u{f03e}",
   [Документация],
   [визуальные диаграммы архитектуры и API на PlantUML],
 )
 
-= Проекты
+= Опыт работы
 
-#card(
+#let project(name, tagline, team, stack, desc, icons: none, ..links) = card(
+  name,
+  tagline,
+  [
+    #text(fill: soft, size: 8.5pt)[Команда: #team]\
+    #text(fill: soft, size: 8.5pt)[Стек: #stack]\
+    #v(2pt)
+    #desc
+  ],
+  icons: icons,
+  ..links,
+)
+
+#project(
   "Advance Shop",
-  [e-commerce backend],
-  [Серверная часть интернет-магазина бытовой техники: 29 функций для
-    управления клиентами, поставщиками и товарами; разделил чтение и
-    запись, чтобы сервис стабильно работал при росте нагрузки; продуманная
-    обработка ошибок.],
+  [e-commerce backend (Spring Boot)],
+  [индивидуальная разработка: проектирование, backend, БД, деплой],
+  [Java, Spring Boot, Spring Data JPA, PostgreSQL, Flyway, Docker, Nginx, OpenAPI],
+  [Серверная часть интернет-магазина бытовой техники: REST API с продуманной
+    обработкой ошибок; разделил чтение и запись (1 write + 2 read), чтобы
+    сервис стабильно работал при росте нагрузки.],
   icons: "stack-advance.svg",
   link("https://github.com/qFioofa/advance-shop-backend.springboot")[GitHub],
 )
 
-#card(
+#project(
+  "Tic-Tac-Toe",
+  [full-stack веб-приложение],
+  [индивидуальная разработка: backend, фронтенд, БД],
+  [Java, Spring Boot, Spring Data JDBC, JWT, PostgreSQL, JavaScript],
+  [Веб-игра «крестики-нолики»: stateless JWT-авторизация (access + refresh),
+    лобби, лидерборд и ИИ-противник (minimax); защита от конкурентных ходов
+    через optimistic locking.],
+  icons: "stack-rogue.svg",
+  link("https://github.com/qFioofa/tic-tac-toe-backend.springboot")[GitHub],
+)
+
+#project(
   "Weather Collection",
   [сбор данных о погоде],
-  [Автоматический сбор и анализ погоды по 30 городам: данные обновляются
-    каждые 3 минуты, устаревшие записи архивируются сами, отчёты строятся
-    без ручных действий.],
+  [индивидуальная разработка: ETL, БД, аналитика],
+  [Python, PostgreSQL, TimescaleDB, индексы и партиции, Bash],
+  [Автоматический сбор и анализ погоды по городам России: данные обновляются
+    по расписанию, устаревшие записи архивируются сами, отчёты строятся без
+    ручных действий.],
   icons: "stack-weather.svg",
   link("https://github.com/qFioofa/weather-collection.postgress")[GitHub],
 )
 
-#card(
+#project(
   "Payment & Subscription Registry",
   [учёт подписок и платежей],
+  [индивидуальная разработка: backend, БД, тесты],
+  [Java, Spring Boot, PostgreSQL, транзакции, SSE, JUnit 5, Mockito],
   [Сервис учёта подписок и регулярных платежей: корректный расчёт дат
     списаний (конец месяца, високосный год), бизнес-логика отделена от
-    технической части, 16 автотестов.],
+    технической части, покрыт автотестами.],
   icons: "stack-payment.svg",
   link("https://github.com/qFioofa/payment-subscription.springboot")[GitHub],
 )
@@ -216,23 +252,29 @@
     left: if x > 0 { 0.5pt + hairline } else { 0pt },
   ),
   ..skill("BACKEND", icons: ("spring", "java"))[
-    Spring Boot, Spring Data JPA, Hibernate, REST API, unit-тесты
+    Spring Boot, Spring Data JPA, Hibernate, REST API, валидация DTO,
+    unit-тесты
   ],
   ..skill(
     "ЯЗЫКИ",
-    icons: ("java", "python", "bash"),
+    icons: ("java", "js", "python", "bash"),
   )[
-    Java, SQL, Python, Bash
+    Java, JavaScript, SQL, Python, Bash
   ],
   ..skill("БАЗЫ ДАННЫХ", icons: ("postgresql",))[
     PostgreSQL: проектирование схем, миграции (Flyway), индексы,
-    оптимизация запросов
+    транзакции (ACID), оптимизация запросов
   ],
   ..skill("DEVOPS", icons: ("docker", "git", "ci"))[
     Docker (Compose), CI/CD, Git, Gradle/Maven, Linux, Nginx, TCP/IP
   ],
   ..skill("КОНЦЕПЦИИ", icons: ("java",))[
-    ООП, клиент-сервер, конкурентность
+    Java Core (JVM, JMM), ООП, клиент-сервер, конкурентность,
+    микросервисы
+  ],
+  ..skill("API", icons: ("java",))[
+    OpenAPI, JSON, JWT-авторизация (безопасность API), SSE (асинхронное
+    взаимодействие)
   ],
   ..skill("ДОКУМЕНТАЦИЯ", icons: ("plantuml",))[
     визуальные диаграммы архитектуры и API
@@ -244,10 +286,19 @@
 #v(5pt)
 #cloud((
   "Java",
+  "Java Core (JVM, JMM)",
   "ООП",
   "SQL",
   "PostgreSQL",
+  "индексы",
+  "транзакции (ACID)",
   "REST API",
+  "JSON",
+  "OpenAPI",
+  "валидация",
+  "микросервисы",
+  "JWT (безопасность API)",
+  "SSE",
   "Spring Boot",
   "Spring Data JPA",
   "Hibernate",
@@ -262,8 +313,10 @@
   "CI/CD",
   "Nginx",
   "Python",
+  "JavaScript",
   "TCP/IP",
   "Bash",
+  "ИИ / LLM",
 ))
 
 = Образование

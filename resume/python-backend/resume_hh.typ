@@ -71,7 +71,8 @@
     Мой GitHub: #link("https://github.com/qFioofa")[github.com/qFioofa]
     #v(3pt)
     #text(fill: meta, size: 9.5pt)[
-      Проживает: Нижний Новгород \
+      Проживает: Москва \
+      Возраст: 21 год (2005 г.р.) \
       Гражданство: Россия
     ]
   ],

@@ -100,7 +100,7 @@
         "https://github.com/qFioofa",
       )[github.com/qFioofa]],
 
-      ico("\u{f041}")[Нижний Новгород],
+      ico("\u{f041}")[Москва],
     )
   ],
   photo,
@@ -146,37 +146,53 @@
   [визуальные диаграммы архитектуры и API на PlantUML],
 )
 
-= Проекты
+= Опыт работы
 
-#card(
+#let project(name, tagline, team, stack, desc, icons: none, ..links) = card(
+  name,
+  tagline,
+  [
+    #text(fill: soft, size: 8.5pt)[Команда: #team]\
+    #text(fill: soft, size: 8.5pt)[Стек: #stack]\
+    #v(2pt)
+    #desc
+  ],
+  icons: icons,
+  ..links,
+)
+
+#project(
   "Advance Shop",
   [e-commerce backend (FastAPI)],
+  [индивидуальная разработка: проектирование, backend, БД, деплой],
+  [Python, FastAPI, SQLAlchemy, Alembic, PostgreSQL, Docker, Nginx, OpenAPI],
   [Серверная часть интернет-магазина бытовой техники: асинхронное REST API
-    на Python/FastAPI — 29 эндпоинтов для управления клиентами, поставщиками
-    и товарами; разделил чтение и запись, чтобы сервис стабильно работал при
-    росте нагрузки; структура БД (PostgreSQL, SQLAlchemy, Alembic) и
-    продуманная обработка ошибок.],
+    с продуманной обработкой ошибок; разделил чтение и запись, чтобы сервис
+    стабильно работал при росте нагрузки.],
   icons: "stack-advance.svg",
   link("https://github.com/qFioofa/advance-shop-backend.springboot")[GitHub],
 )
 
-#card(
+#project(
   "Tuning Model TG Bot",
   [Telegram-бот с ИИ-моделями],
+  [индивидуальная разработка: backend, ML-интеграция, деплой],
+  [Python, python-telegram-bot, asyncio, Docker, docker-compose],
   [Показ функционала натренированных моделей через Telegram-бота: выбор
     уровня модели и профиля, генерация текста; спроектировал AI Router —
-    маршрутизацию запросов к моделям; контейнеризовал запуск (Docker,
-    docker-compose) и развернул бота: t.me/ConflictGeneratorbot.],
+    маршрутизацию запросов к моделям; развернул бота: t.me/ConflictGeneratorbot.],
   icons: "stack-llm.svg",
   link("https://github.com/qFioofa/TuningModelTGBotShowcase")[GitHub],
 )
 
-#card(
+#project(
   "Payment & Subscription Registry",
   [учёт подписок и платежей],
+  [индивидуальная разработка: backend, БД, тесты],
+  [Python, FastAPI, PostgreSQL, транзакции, pytest],
   [Сервис учёта подписок и регулярных платежей на Python: корректный расчёт
     дат списаний (конец месяца, високосный год), бизнес-логика отделена от
-    технической части, 16 автотестов (pytest).],
+    технической части, покрыт автотестами.],
   icons: "stack-payment.svg",
   link("https://github.com/qFioofa/payment-subscription.springboot")[GitHub],
 )
