@@ -1,10 +1,53 @@
 root = true
 
-[*.typ]
-indent_style = space
-indent_size = 4
-max_line_length = 80
+[*.{md,txt,typ}]
 charset = utf-8
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
+
+[*.typ]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.md]
+trim_trailing_whitespace = false
+
+# Scripts
+[*.sh]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+[*.bat]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Vector graphics (xml)
+[*.svg]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Config files
+[.{gitignore,editorconfig,gitattributes}]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Binary images
+[*.{jpeg,jpg,png,gif,pdf}]
+charset = unset
+end_of_line = unset
+insert_final_newline = false
+trim_trailing_whitespace = false
