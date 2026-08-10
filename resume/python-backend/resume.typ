@@ -1,4 +1,5 @@
-#let accent = rgb("#e8641c")
+#let accent = rgb("#3776ab")
+#let accent2 = rgb("#ffd343")
 #let ink = rgb("#222222")
 #let soft = rgb("#666666")
 #let hairline = rgb("#d9d9d9")
@@ -83,7 +84,7 @@
     #text(size: 22pt, weight: "bold")[Дмитрий Воскобойник]
     #v(-4pt)
     #mono(
-      [Backend-разработчик #text(fill: accent)[(Java)]],
+      [Backend-разработчик #text(fill: accent)[(Python)]],
       size: 11pt,
     )
     #v(6pt)
@@ -112,14 +113,20 @@
 #point(
   "\u{f0e7}",
   [Backend-разработка],
-  [Java, Spring Boot, REST API: проектирую и разрабатываю серверную часть
+  [Python, FastAPI, REST API: проектирую и разрабатываю серверную часть
     приложений — от базы данных до развёртывания сервиса],
 )
 #point(
   "\u{f121}",
   [Надёжность и данные],
-  [PostgreSQL: транзакции, индексы, оптимизация запросов; продуманная
-    обработка ошибок],
+  [PostgreSQL, SQLAlchemy, Alembic: миграции, индексы, оптимизация запросов;
+    продуманная обработка ошибок],
+)
+#point(
+  "\u{f121}",
+  [ИИ / LLM],
+  [настраиваю и дообучаю языковые модели, готовлю датасеты, оборачиваю
+    модели в продукты (AI Router, Telegram-бот)],
 )
 #point(
   "\u{f086}",
@@ -143,31 +150,33 @@
 
 #card(
   "Advance Shop",
-  [e-commerce backend],
-  [Серверная часть интернет-магазина бытовой техники: 29 функций для
-    управления клиентами, поставщиками и товарами; разделил чтение и
-    запись, чтобы сервис стабильно работал при росте нагрузки; продуманная
-    обработка ошибок.],
+  [e-commerce backend (FastAPI)],
+  [Серверная часть интернет-магазина бытовой техники: асинхронное REST API
+    на Python/FastAPI — 29 эндпоинтов для управления клиентами, поставщиками
+    и товарами; разделил чтение и запись, чтобы сервис стабильно работал при
+    росте нагрузки; структура БД (PostgreSQL, SQLAlchemy, Alembic) и
+    продуманная обработка ошибок.],
   icons: "stack-advance.svg",
   link("https://github.com/qFioofa/advance-shop-backend.springboot")[GitHub],
 )
 
 #card(
-  "Weather Collection",
-  [сбор данных о погоде],
-  [Автоматический сбор и анализ погоды по 30 городам: данные обновляются
-    каждые 3 минуты, устаревшие записи архивируются сами, отчёты строятся
-    без ручных действий.],
-  icons: "stack-weather.svg",
-  link("https://github.com/qFioofa/weather-collection.postgress")[GitHub],
+  "Tuning Model TG Bot",
+  [Telegram-бот с ИИ-моделями],
+  [Показ функционала натренированных моделей через Telegram-бота: выбор
+    уровня модели и профиля, генерация текста; спроектировал AI Router —
+    маршрутизацию запросов к моделям; контейнеризовал запуск (Docker,
+    docker-compose) и развернул бота: t.me/ConflictGeneratorbot.],
+  icons: "stack-llm.svg",
+  link("https://github.com/qFioofa/TuningModelTGBotShowcase")[GitHub],
 )
 
 #card(
   "Payment & Subscription Registry",
   [учёт подписок и платежей],
-  [Сервис учёта подписок и регулярных платежей: корректный расчёт дат
-    списаний (конец месяца, високосный год), бизнес-логика отделена от
-    технической части, 16 автотестов.],
+  [Сервис учёта подписок и регулярных платежей на Python: корректный расчёт
+    дат списаний (конец месяца, високосный год), бизнес-логика отделена от
+    технической части, 16 автотестов (pytest).],
   icons: "stack-payment.svg",
   link("https://github.com/qFioofa/payment-subscription.springboot")[GitHub],
 )
@@ -215,24 +224,27 @@
     top: if y > 0 { 0.5pt + hairline } else { 0pt },
     left: if x > 0 { 0.5pt + hairline } else { 0pt },
   ),
-  ..skill("BACKEND", icons: ("spring", "java"))[
-    Spring Boot, Spring Data JPA, Hibernate, REST API, unit-тесты
+  ..skill("BACKEND", icons: ("python",))[
+    FastAPI, SQLAlchemy, Pydantic, asyncio, REST API, unit-тесты (pytest)
   ],
   ..skill(
     "ЯЗЫКИ",
-    icons: ("java", "python", "bash"),
+    icons: ("python", "js", "bash"),
   )[
-    Java, SQL, Python, Bash
+    Python, SQL, JavaScript, Bash
   ],
   ..skill("БАЗЫ ДАННЫХ", icons: ("postgresql",))[
-    PostgreSQL: проектирование схем, миграции (Flyway), индексы,
+    PostgreSQL: проектирование схем, миграции (Alembic), индексы,
     оптимизация запросов
   ],
   ..skill("DEVOPS", icons: ("docker", "git", "ci"))[
-    Docker (Compose), CI/CD, Git, Gradle/Maven, Linux, Nginx, TCP/IP
+    Docker (Compose), CI/CD, Git, Linux, Nginx, TCP/IP
   ],
-  ..skill("КОНЦЕПЦИИ", icons: ("java",))[
-    ООП, клиент-сервер, конкурентность
+  ..skill("КОНЦЕПЦИИ", icons: ("python",))[
+    ООП, клиент-сервер, асинхронность (asyncio)
+  ],
+  ..skill("ИИ / LLM", icons: ("python",))[
+    дообучение моделей, датасеты, AI Router, AI-ассистенты в разработке
   ],
   ..skill("ДОКУМЕНТАЦИЯ", icons: ("plantuml",))[
     визуальные диаграммы архитектуры и API
@@ -243,27 +255,28 @@
 )
 #v(5pt)
 #cloud((
-  "Java",
+  "Python",
   "ООП",
   "SQL",
   "PostgreSQL",
   "REST API",
-  "Spring Boot",
-  "Spring Data JPA",
-  "Hibernate",
-  "Unit-тесты (JUnit 5, Mockito)",
-  "Gradle",
-  "Maven",
-  "Flyway",
+  "FastAPI",
+  "SQLAlchemy",
+  "Alembic (миграции)",
+  "Pydantic",
+  "asyncio",
+  "python-telegram-bot",
+  "Unit-тесты (pytest)",
   "Docker",
   "Docker Compose",
   "Linux",
   "Git",
   "CI/CD",
   "Nginx",
-  "Python",
+  "JavaScript",
   "TCP/IP",
   "Bash",
+  "ИИ / LLM",
 ))
 
 = Образование
