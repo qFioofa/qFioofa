@@ -113,11 +113,11 @@
   ],
   box(
     width: 80pt,
-    height: 80pt,
+    height: 130pt,
     radius: 4pt,
     clip: true,
     stroke: 0.6pt + hairline,
-  )[#image("../img/self.jpeg", width: 100%, height: 100%, fit: "cover")],
+  )[#image("../img/self-s21.png", width: 100%, height: 100%, fit: "cover")],
 )
 
 #section[Желаемая должность]
