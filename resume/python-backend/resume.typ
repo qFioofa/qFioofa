@@ -153,7 +153,7 @@
   tagline,
   [
     #text(fill: soft, size: 8.5pt)[Команда: #team]\
-    #text(fill: soft, size: 8.5pt)[Стек: #stack]\
+    #text(size: 8.5pt)[#text(weight: "bold")[Стек:] #stack]\
     #v(2pt)
     #desc
   ],

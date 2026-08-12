@@ -85,7 +85,7 @@
       }
       if stack != none {
         v(2pt)
-        text(fill: meta)[Стек: #stack]
+        [#text(weight: "bold")[Стек:] #stack]
       }
     },
   )
@@ -138,7 +138,7 @@
   [Сервис расчёта дат списаний и отслеживания статусов подписок с уведомлениями в реальном времени (SSE).],
   team: [индивидуальная разработка (backend, БД, тесты)],
   repo: "https://github.com/qFioofa/payment-subscription.springboot",
-  // stack: [Java, Spring Boot, Spring Data JPA, PostgreSQL, Flyway, транзакции, SSE, JUnit 5, Mockito],
+  stack: [Java, Spring Boot, Spring Data JPA, PostgreSQL, Flyway, транзакции, SSE, JUnit 5, Mockito],
   achievements: (
     [Рассчитал даты списаний без ошибок в сложные дни календаря: при списании 31 января дата автоматически переносится на конец февраля, неверных списаний не бывает.],
     [Подключил мгновенные уведомления: клиент видит смену статуса подписки (оплачено/просрочено) сразу, без перезагрузки страницы (SSE).],
@@ -155,7 +155,7 @@
   [REST API для управления клиентами, поставщиками и товарами.],
   team: [индивидуальная разработка (проектирование, backend, БД, деплой)],
   repo: "https://github.com/qFioofa/advance-shop-backend.springboot",
-  // stack: [Java, Spring Boot, Spring Data JPA, PostgreSQL, Flyway, Docker, Nginx, OpenAPI],
+  stack: [Java, Spring Boot, Spring Data JPA, PostgreSQL, Flyway, Docker, Nginx, OpenAPI],
   achievements: (
     [Спроектировал единые правила обмена данными с магазином (REST API): интеграция с системой предсказуема, ошибки видны сразу.],
     [Сделал систему способной выдерживать рост трафика: чтение и запись данных разделены.],
@@ -172,7 +172,7 @@
   [Веб-игра крестики-нолики: регистрация, лобби, лидерборд и ИИ-противник (minimax).],
   team: [индивидуальная разработка (backend, фронтенд, БД)],
   repo: "https://github.com/qFioofa/tic-tac-toe-backend.springboot",
-  // stack: [Java, Spring Boot, Spring Data JDBC, Spring Security, JWT, PostgreSQL, JavaScript],
+  stack: [Java, Spring Boot, Spring Data JDBC, Spring Security, JWT, PostgreSQL, JavaScript],
   achievements: (
     [Внедрил регистрацию и вход с защитой данных: доступ к аккаунту и функциям игры надёжно защищён (JWT).],
     [Обеспечил корректную игру при одновременных ходах двух игроков: партия не ломается и данные не теряются.],
