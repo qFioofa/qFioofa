@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/qFioofa">
-    <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white" alt="GitHub">
+  <a href="https://github.com/qFioofa/qFioofa/blob/feature/java-backend-hh-rewrite/resume/result/resume_java_hh.pdf">
+    <img src="https://img.shields.io/badge/%D0%A0%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5-EC1C24?style=flat&logo=googledocs&logoColor=white" alt="Резюме">
   </a>
   <a href="mailto:rizzman@yandex.ru">
     <img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email">
