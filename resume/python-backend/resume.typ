@@ -1,5 +1,4 @@
-#let accent = rgb("#3776ab")
-#let accent2 = rgb("#ffd343")
+#let accent = rgb("#3d7a5c")
 #let ink = rgb("#222222")
 #let soft = rgb("#666666")
 #let hairline = rgb("#d9d9d9")
@@ -48,7 +47,7 @@
   mono(glyph, fill: accent, size: 10pt), [*#title* — #body],
 )
 
-#let card(name, tagline, desc, icons: none, ..links) = block(
+#let card(name, tagline, desc, ..links) = block(
   width: 100%,
   stroke: 0.6pt + hairline,
   radius: 5pt,
@@ -59,22 +58,18 @@
   #mono(name, weight: "bold", size: 10pt)
   #text(fill: soft)[— #tagline]
   #h(1fr)
-  #if icons != none {
-    box(baseline: 30%, image("../img/" + icons, height: 12pt))
-    if links.pos().len() > 0 { h(6pt) }
-  }
   #links.pos().join(text(fill: hairline)[ | ])
   #v(1pt)
   #text(size: 9pt)[#desc]
 ]
 
 #let photo = box(
-  width: 76pt,
-  height: 76pt,
+  width: 54pt,
+  height: 90pt,
   radius: 8pt,
   clip: true,
   stroke: 0.6pt + hairline,
-)[#image("../img/self.jpeg", width: 100%, height: 100%, fit: "cover")]
+)[#image("../img/self-s21.png", width: 100%, height: 100%, fit: "cover")]
 
 #grid(
   columns: (1fr, auto),
@@ -100,7 +95,7 @@
         "https://github.com/qFioofa",
       )[github.com/qFioofa]],
 
-      ico("\u{f041}")[Москва],
+      ico("\u{f041}")[Нижний Новгород],
     )
   ],
   photo,
@@ -108,47 +103,9 @@
 #v(2pt)
 #line(length: 100%, stroke: 1pt + accent)
 
-= О себе
-
-#point(
-  "\u{f0e7}",
-  [Backend-разработка],
-  [Python, FastAPI, REST API: проектирую и разрабатываю серверную часть
-    приложений — от базы данных до развёртывания сервиса],
-)
-#point(
-  "\u{f121}",
-  [Надёжность и данные],
-  [PostgreSQL, SQLAlchemy, Alembic: миграции, индексы, оптимизация запросов;
-    продуманная обработка ошибок],
-)
-#point(
-  "\u{f121}",
-  [ИИ / LLM],
-  [настраиваю и дообучаю языковые модели, готовлю датасеты, оборачиваю
-    модели в продукты (AI Router, Telegram-бот)],
-)
-#point(
-  "\u{f086}",
-  [Клуб переговоров],
-  [организатор и ведущий: занятия для 10 участников, разбор теории и
-    практические упражнения; развил навык решения конфликтов и ведения
-    переговоров],
-)
-#point(
-  "\u{f0c0}",
-  [Командная работа],
-  [GitFlow, спринты по Agile, совместный code review],
-)
-#point(
-  "\u{f03e}",
-  [Документация],
-  [визуальные диаграммы архитектуры и API на PlantUML],
-)
-
 = Опыт работы
 
-#let project(name, tagline, team, stack, desc, icons: none, ..links) = card(
+#let project(name, tagline, team, stack, desc, ..links) = card(
   name,
   tagline,
   [
@@ -157,7 +114,6 @@
     #v(2pt)
     #desc
   ],
-  icons: icons,
   ..links,
 )
 
@@ -169,7 +125,6 @@
   [Серверная часть интернет-магазина бытовой техники: асинхронное REST API
     с продуманной обработкой ошибок; разделил чтение и запись, чтобы сервис
     стабильно работал при росте нагрузки.],
-  icons: "stack-advance.svg",
   link("https://github.com/qFioofa/advance-shop-backend.springboot")[GitHub],
 )
 
@@ -181,7 +136,6 @@
   [Показ функционала натренированных моделей через Telegram-бота: выбор
     уровня модели и профиля, генерация текста; спроектировал AI Router —
     маршрутизацию запросов к моделям; развернул бота: t.me/ConflictGeneratorbot.],
-  icons: "stack-llm.svg",
   link("https://github.com/qFioofa/TuningModelTGBotShowcase")[GitHub],
 )
 
@@ -193,30 +147,11 @@
   [Сервис учёта подписок и регулярных платежей на Python: корректный расчёт
     дат списаний (конец месяца, високосный год), бизнес-логика отделена от
     технической части, покрыт автотестами.],
-  icons: "stack-payment.svg",
   link("https://github.com/qFioofa/payment-subscription.springboot")[GitHub],
 )
 
 = Навыки
 
-#let cluster(names) = stack(
-  spacing: 2.5pt,
-  ..names
-    .chunks(4)
-    .map(row => stack(
-      dir: ltr,
-      spacing: 2.5pt,
-      ..row.map(n => image("../img/i-" + n + ".svg", height: 13pt)),
-    )),
-)
-#let skill(label, body, icons: none) = (
-  mono(label, size: 8.5pt, weight: "bold", fill: accent),
-  ..if icons != none {
-    (body, cluster(icons))
-  } else {
-    (table.cell(colspan: 2, body),)
-  },
-)
 #let cloud(names) = block(
   width: 100%,
   inset: (x: 8pt, y: 6pt),
@@ -232,44 +167,6 @@
     mono(n, size: 8.5pt, fill: accent),
   )).join(h(4pt))
 ]
-#table(
-  columns: (88pt, 1fr, auto),
-  align: (left + horizon, left + horizon, right + horizon),
-  inset: (x: 8pt, y: 5pt),
-  stroke: (x, y) => (
-    top: if y > 0 { 0.5pt + hairline } else { 0pt },
-    left: if x > 0 { 0.5pt + hairline } else { 0pt },
-  ),
-  ..skill("BACKEND", icons: ("python",))[
-    FastAPI, SQLAlchemy, Pydantic, asyncio, REST API, unit-тесты (pytest)
-  ],
-  ..skill(
-    "ЯЗЫКИ",
-    icons: ("python", "js", "bash"),
-  )[
-    Python, SQL, JavaScript, Bash
-  ],
-  ..skill("БАЗЫ ДАННЫХ", icons: ("postgresql",))[
-    PostgreSQL: проектирование схем, миграции (Alembic), индексы,
-    оптимизация запросов
-  ],
-  ..skill("DEVOPS", icons: ("docker", "git", "ci"))[
-    Docker (Compose), CI/CD, Git, Linux, Nginx, TCP/IP
-  ],
-  ..skill("КОНЦЕПЦИИ", icons: ("python",))[
-    ООП, клиент-сервер, асинхронность (asyncio)
-  ],
-  ..skill("ИИ / LLM", icons: ("python",))[
-    дообучение моделей, датасеты, AI Router, AI-ассистенты в разработке
-  ],
-  ..skill("ДОКУМЕНТАЦИЯ", icons: ("plantuml",))[
-    визуальные диаграммы архитектуры и API
-  ],
-  ..skill("ЯЗЫКИ (ЕСТ.)")[
-    русский — родной; английский — B2 (разговорный)
-  ],
-)
-#v(5pt)
 #cloud((
   "Python",
   "ООП",
@@ -302,3 +199,29 @@
     школа программирования по модели «равный — равному»: проекты по разным
     направлениям; soft-скилы: самообучение, разбор чужого кода, работа
     в команде]
+
+= О себе
+
+#point(
+  "\u{f040}",
+  [Код-ревьюер на отборочных интенсивах Школы 21],
+  [проверял решения более 15 участников, давал развивающую обратную связь],
+)
+#point(
+  "\u{f086}",
+  [Веду студенческий клуб переговоров],
+  [на протяжении 1 года: ведение деловых коммуникаций и решение конфликтов
+    с 10 людьми на занятиях],
+)
+#point(
+  "\u{f091}",
+  [Организатор студенческих мероприятий],
+  [составление сценария и координация команды: топ-2 по масштабу
+    мероприятие в вузе — более 100 участников],
+)
+#point(
+  "\u{f0c0}",
+  [Роль в команде: backend-разработчик],
+  [GitFlow, спринты по Agile, совместный code review; отвечаю за серверную
+    часть и согласование API-контрактов с коллегами],
+)
