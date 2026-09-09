@@ -33,7 +33,9 @@
 
 # IntelliJ IDEA
 
-| Theme | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=bokeh) | [Based on yugen-ash.nvim](https://github.com/qFioofa/yugen-ash.nvim) | [Config](https://github.com/qFioofa/yugen-ash.idea) |
+| Category | Icon                                                           | Name                                                                 | Config Link                                         |
+| -------- | -------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------- |
+| Theme    | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=bokeh) | [Based on yugen-ash.nvim](https://github.com/qFioofa/yugen-ash.nvim) | [Config](https://github.com/qFioofa/yugen-ash.idea) |
 
 ---
 
