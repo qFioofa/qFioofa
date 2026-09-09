@@ -11,6 +11,7 @@
 | Terminal                 | ![Ghostty](https://go-skill-icons.vercel.app/api/icons?i=ghostty) | [Ghostty](https://ghostty.org/)                             | [Config](https://github.com/qFioofa/qFioofa-Ghostty) |
 | Terminal session manager | ![tmux](https://go-skill-icons.vercel.app/api/icons?i=tmux)       | [tmux](https://github.com/tmux/tmux)                        | [Config](https://github.com/qFioofa/qFioofa-tmux)    |
 | Browser                  | ![Firefox](https://go-skill-icons.vercel.app/api/icons?i=firefox) | [Firefox](https://www.firefox.com)                          | [Config](https://github.com/qFioofa/qFioofa-Firefox) |
+| Git Manager              | ![LazyGit](https://go-skill-icons.vercel.app/api/icons?i=git)     | [LazyGit](https://github.com/jesseduffield/lazygit)         | [Config](https://github.com/qFioofa/qFioofa-LazyGit) |
 
 ---
 
