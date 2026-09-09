@@ -2,16 +2,17 @@
 
 # Main
 
-| Category                 | Icon                                                              | Name                                                        | Config Link                                          |
-| ------------------------ | ----------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------- |
-| OS                       | ![NixOS](https://go-skill-icons.vercel.app/api/icons?i=nixos)     | [NixOS](https://nixos.org/)                                 | [Config](https://github.com/qFioofa/qFioofa-NixOS)   |
-| Editor                   | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=neovim)   | [Nvim](https://github.com/neovim/neovim)                    | [Config](https://github.com/qFioofa/qFioofa-Nvim)    |
-| Theme                    | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=bokeh)    | [yugen-ash.nvim](https://github.com/qFioofa/yugen-ash.nvim) | [Config](https://github.com/qFioofa/yugen-ash.nvim)  |
-| Shell                    | ![zsh](https://go-skill-icons.vercel.app/api/icons?i=terminal)    | [zsh](https://github.com/zsh-users/zsh)                     | [Config](https://github.com/qFioofa/qFioofa-zsh)     |
-| Terminal                 | ![Ghostty](https://go-skill-icons.vercel.app/api/icons?i=ghostty) | [Ghostty](https://ghostty.org/)                             | [Config](https://github.com/qFioofa/qFioofa-Ghostty) |
-| Terminal session manager | ![tmux](https://go-skill-icons.vercel.app/api/icons?i=tmux)       | [tmux](https://github.com/tmux/tmux)                        | [Config](https://github.com/qFioofa/qFioofa-tmux)    |
-| Browser                  | ![Firefox](https://go-skill-icons.vercel.app/api/icons?i=firefox) | [Firefox](https://www.firefox.com)                          | [Config](https://github.com/qFioofa/qFioofa-Firefox) |
-| Git Manager              | ![LazyGit](https://go-skill-icons.vercel.app/api/icons?i=git)     | [LazyGit](https://github.com/jesseduffield/lazygit)         | [Config](https://github.com/qFioofa/qFioofa-LazyGit) |
+| Category                 | Icon                                                              | Name                                                        | Config Link                                             |
+| ------------------------ | ----------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------- |
+| OS                       | ![NixOS](https://go-skill-icons.vercel.app/api/icons?i=nixos)     | [NixOS](https://nixos.org/)                                 | [Config](https://github.com/qFioofa/qFioofa-NixOS)      |
+| Editor                   | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=neovim)   | [Nvim](https://github.com/neovim/neovim)                    | [Config](https://github.com/qFioofa/qFioofa-Nvim)       |
+| Theme                    | ![Neovim](https://go-skill-icons.vercel.app/api/icons?i=bokeh)    | [yugen-ash.nvim](https://github.com/qFioofa/yugen-ash.nvim) | [Config](https://github.com/qFioofa/yugen-ash.nvim)     |
+| Shell                    | ![zsh](https://go-skill-icons.vercel.app/api/icons?i=terminal)    | [zsh](https://github.com/zsh-users/zsh)                     | [Config](https://github.com/qFioofa/qFioofa-zsh)        |
+| Terminal                 | ![Ghostty](https://go-skill-icons.vercel.app/api/icons?i=ghostty) | [Ghostty](https://ghostty.org/)                             | [Config](https://github.com/qFioofa/qFioofa-Ghostty)    |
+| Terminal session manager | ![tmux](https://go-skill-icons.vercel.app/api/icons?i=tmux)       | [tmux](https://github.com/tmux/tmux)                        | [Config](https://github.com/qFioofa/qFioofa-tmux)       |
+| Browser                  | ![Firefox](https://go-skill-icons.vercel.app/api/icons?i=firefox) | [Firefox](https://www.firefox.com)                          | [Config](https://github.com/qFioofa/qFioofa-Firefox)    |
+| Git Manager              | ![LazyGit](https://go-skill-icons.vercel.app/api/icons?i=git)     | [LazyGit](https://github.com/jesseduffield/lazygit)         | [Config](https://github.com/qFioofa/qFioofa-LazyGit)    |
+| Docker Manager           | ![LazyGit](https://go-skill-icons.vercel.app/api/icons?i=docker)  | [LazyDocker](https://github.com/jesseduffield/lazydocker)   | [Config](https://github.com/qFioofa/qFioofa-LazyDocker) |
 
 ---
 
